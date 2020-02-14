@@ -1,0 +1,26 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    >
+<ListView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:id="@+id/list"
+    >
+</ListView>
+    <Button
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:id="@+id/checkHighScore_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundoptions"
+        android:textColor="#fff"
+        android:text="View Text HighScore"
+        android:layout_gravity="center"
+        />
+</LinearLayout>

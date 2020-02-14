@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "681448703356",
+    "firebase_url": "https://quee-be70e.firebaseio.com",
+    "project_id": "quee-be70e",
+    "storage_bucket": "quee-be70e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:681448703356:android:104b540187aeb484fdd0f9",
+        "android_client_info": {
+          "package_name": "com.example.quee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "681448703356-nbp3n6mei6evrmnp7ovj3vopsool102n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.quee",
+            "certificate_hash": "c1d7ee674d6f7d47e1022a6c4c14215fe21c73be"
+          }
+        },
+        {
+          "client_id": "681448703356-47qdpn304mavunlu9dl292np5pgjcrch.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqKqDhBPDUwBSayNX6BuRwoiOk6ihbXls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "681448703356-47qdpn304mavunlu9dl292np5pgjcrch.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

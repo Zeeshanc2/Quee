@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/getstarted"
+    tools:context=".StartActivity"
+    android:id="@+id/getstarted_relative"
+    >
+    <LinearLayout
+        android:id="@+id/getstarted_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        >
+        <TextView
+            android:layout_alignParentBottom="true"
+            android:id="@+id/help_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How to play?"
+            android:textColor="#000"
+            android:gravity="center"
+            android:textSize="15sp"
+            />
+        <Button
+            android:layout_marginTop="10dp"
+            android:elevation="5dp"
+            android:gravity="center"
+            android:id="@+id/register_bt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/getstartedbuttoncolor"
+            android:text="Register"/>
+        <Button
+            android:layout_marginTop="10dp"
+            android:elevation="5dp"
+            android:gravity="center"
+            android:id="@+id/getstarted_bt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/getstartedbuttoncolor"
+            android:text="Get Started" />
+    </LinearLayout>
+
+</RelativeLayout>
